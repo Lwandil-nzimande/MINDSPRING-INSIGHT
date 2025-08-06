@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindSpring Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="logo.png" alt="MindSpring Insights Logo" class="logo"></a>
+            <h1>MindSpring Insights</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="consulting.html">Consulting</a>
+            <a href="terms.html" class="terms-btn">Terms & Privacy</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>The development and growth of your business is here</h2>
+            <p>Helping businesses innovate and grow through expert insights, testing, and consulting.</p>
+            <button class="cta-btn" onclick="scrollToBooking()">Get Started</button>
+        </section>
+
+        <section class="services">
+            <h3>Our Services</h3>
+            <div class="cards">
+                <div class="card">
+                    <h4>Business Consulting</h4>
+                    <p>Custom strategies tailored to maximize your growth potential.</p>
+                </div>
+                <div class="card">
+                    <h4>Product Testing</h4>
+                    <p>Real user feedback to optimize your product experience.</p>
+                </div>
+                <div class="card">
+                    <h4>Innovation Strategy</h4>
+                    <p>Creative solutions to help you stay ahead of competitors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="calendar" id="booking">
+            <h3>Book a Consultation</h3>
+            <a class="button" href="https://calendar.google.com" target="_blank">Schedule on Google Calendar</a>
+        </section>
+
+        <section class="payment">
+            <h3>Payment Options</h3>
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="business" value="lwandilemlingo@icloud.com">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="paypal-btn">Pay with PayPal</button>
+            </form>
+            <p>Gift card payment coming soon!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 MindSpring Insights | Empowering Business Growth</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
